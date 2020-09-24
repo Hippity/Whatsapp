@@ -26,7 +26,7 @@ beep()
 for i in range(100):
     try:
         if select=='Group':
-            x=driver.find_element_by_xpath('//*[@id="pane-side"]/div[1]/div/div/div['+str(i)+']/div/div/div[2]/div[1]/div[1]/div/span')
+            x=driver.find_element_by_xpath('//*[@id="pane-side"]/div[1]/div/div/div['+str(i)+']/div/div/div[2]/div[1]/div[1]/span')
             if x.text==Contact:
                 x.click()
                 for i in range(Num):
