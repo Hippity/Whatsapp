@@ -7,6 +7,6 @@ In order to run it properly, enter the inputs needed, and once chrome opens have
 
 You must enter the contact or group name as it is written on your phone, names with emojis will not work.
 
-filemessage.py takes a file name and send all the contents in the file.
+filemessage.py takes a file called Shrek.txt and send all the contents in the file.
 
 
