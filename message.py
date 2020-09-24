@@ -10,7 +10,7 @@ Word= input("Enter Phrase: ")
 Num=int(input("Enter Number of Messages: "))
 
 
-driver=webdriver.Chrome(executable_path='C:\\Users\Zein Zebib\Documents\Python Stuff\Online Automation\chromedriver.exe')
+driver=webdriver.Chrome(executable_path=#######Enter your chromdriver path)
 
 driver.get('https://web.whatsapp.com/')
 
