@@ -8,7 +8,7 @@ select=input('Group or Contact: ')
 Contact=input("Enter Name: ")
 
 
-driver=webdriver.Chrome(executable_path='C:\\Users\Zein Zebib\Documents\Python Stuff\Online Automation\chromedriver.exe')
+driver=webdriver.Chrome(executable_path=##### Chromedrive path)
 
 driver.get('https://web.whatsapp.com/')
 
